@@ -14,8 +14,9 @@ Project is created with:
 * Inkscape
 	
 ## Setup
-To run this project, clone repo and click index.html file.
-Test app in my [codepen](https://codepen.io/Panelinio/pen/RwzKrZO)
+To run this project, clone repo, choose directory and click index.html file.
+Test app in my Codepens 
+* [Abstratec](https://codepen.io/Panelinio/pen/RwzKrZO)
 
 ## Sources
 What inspired me:
