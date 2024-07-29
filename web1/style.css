@@ -28,9 +28,12 @@ main {
   height: 80vh;
   background-color: #232931;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 2px, rgba(0, 0, 0, 0.1) 0 4px 4px,
-    rgba(0, 0, 0, 0.1) 0 8px 8px, rgba(0, 0, 0, 0.1) 0 16px 16px,
-    rgba(0, 0, 0, 0.1) 0 32px 32px, rgba(0, 0, 0, 0.1) 0 64px 64px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 2px, 
+              rgba(0, 0, 0, 0.1) 0 4px 4px,
+              rgba(0, 0, 0, 0.1) 0 8px 8px, 
+              rgba(0, 0, 0, 0.1) 0 16px 16px,
+              rgba(0, 0, 0, 0.1) 0 32px 32px, 
+              rgba(0, 0, 0, 0.1) 0 64px 64px;
 }
 
 header {
@@ -335,6 +338,7 @@ footer {
 
   .sidebar ul li {
     min-width: 100px;
+    padding: 20px;
   }
 
   .nav {
