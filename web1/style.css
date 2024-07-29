@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rammetto+One&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(120deg, #DE1B4A 0%, #BB0029 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #E8F9FD;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+    justify-items: stretch;
+    align-items: start;
+    width: 85%;
+    height: 75vh;
+    background-color: #232931;
+    border-radius: 10px;
+    box-shadow: 
+        rgba(0, 0, 0, 0.1) 0 2px 2px,
+        rgba(0, 0, 0, 0.1) 0 4px 4px,
+        rgba(0, 0, 0, 0.1) 0 8px 8px,
+        rgba(0, 0, 0, 0.1) 0 16px 16px,
+        rgba(0, 0, 0, 0.1) 0 32px 32px,
+        rgba(0, 0, 0, 0.1) 0 64px 64px;
+}
+
+header {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    position: relative; /* Ensure the logo and nav can be positioned absolutely */
+    margin-bottom: 20px;
+}
+
+header .logo {
+    position: absolute;
+    left: 45px; /* Adjust as needed */
+}
+
+header .logo img {
+    width: 40px;
+    height: 40px;
+}
+
+header .search-bar {
+    background-color: #393E46;
+    border: solid 2px #393E46;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    color: #e8f9fd4d;
+}
+
+header .search-bar span
+{
+    margin-right: 5px;
+}
+
+header .nav {
+    position: absolute;
+    right: 45px; /* Adjust as needed */
+    text-align: right;
+}
+
+header .nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .nav ul li {
+    margin-left: 20px;
+}
+
+header .nav ul li a {
+    text-decoration: none;
+    color: #E8F9FD;
+}
+
+header .search-bar input {
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #e8f9fd4d;
+}
+
+header .search-bar input::placeholder {
+    color: #e8f9fd4d;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 35% 45% 20%;
+    width: 100%;
+}
+
+.text, .shape {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    font-size: 30px;
+    flex-direction: column;
+    padding: 45px;
+}
+
+.text h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.text p{
+    line-height: 150%;
+}
+
+.shape {
+    align-items: center;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+
+.sidebar {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    justify-content: flex-end; /* Align items to the right */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    padding: 20px;
+    min-width: 240px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 10px; /* Space between list items */
+}
+
+.sidebar ul li h1 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar ul li p {
+    font-size: 14px;
+    margin: 5px 10px 0 0;
+    padding: 0;
+    line-height: 150%;
+}
+
+.sidebar ul li:hover {
+    background-color: #393E46;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #E8F9FD;
+}
