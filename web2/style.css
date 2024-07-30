@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Martian+Mono:wght@100..800&family=Rammetto+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fefae0;
+  font-family: "Martian Mono", monospace;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  width: 40%;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #222831;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-size: 4.5rem;
+  border-bottom: 4px solid #393e46;
+}
+
+header p {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  line-height: 1.5;
+  font-weight: 200;
+}
+
+main {
+  width: 60%;
+  height: 95vh;
+  background-color: #a9b388;
+  border-radius: 30px;
+}
